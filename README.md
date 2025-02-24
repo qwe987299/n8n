@@ -16,7 +16,7 @@ cd n8n
 確保您已經安裝了 Docker 和 Docker Compose。然後，您可以使用以下命令來啟動 n8n：
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### 3. 設置目錄權限
