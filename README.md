@@ -7,7 +7,7 @@ n8n 是一款強大的開源自動化工具，能夠幫助開發者和企業將�
 ### 1. 克隆專案
 
 ```bash
-git clone https://github.com/your-repo/n8n.git
+git clone https://github.com/qwe987299/n8n.git
 cd n8n
 ```
 
