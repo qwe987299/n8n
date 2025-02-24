@@ -1,0 +1,15 @@
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n
+    container_name: n8n
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - NODE_ENV=production
+      - GENERIC_TIMEZONE=Asia/Taipei
+      # - WEBHOOK_URL=http://your-server-ip:5678/  # 若需啟用 Webhook，請修改 IP 或網域
+    volumes:
+      - ./n8n_data:/home/node/.n8n
