@@ -24,7 +24,7 @@ docker compose up -d
 運行以下腳本來設置 `n8n_data` 目錄的權限：
 
 ```bash
-./chown.sh
+bash chown.sh
 ```
 
 ### 4. 瀏覽 n8n
